@@ -8,7 +8,7 @@ import PaginaBackEnd from '../paginas/PaginaBackEnd';
 const Rotas = () => (
     <BrowserRouter>
         <Routes>
-            <Route exact path='/Pagina-Inicial' element={ <PaginaInicial/> } />
+            <Route exact path='/' element={ <PaginaInicial/> } />
             <Route path='/front-end' element={ <PaginaFrontEnd/> } />
             <Route path='/back-end' element={ <PaginaBackEnd/> } />
         </Routes>
